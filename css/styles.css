@@ -3,6 +3,8 @@
 --secondary-text-color: #212121;
 --accent-color: #2196F3;
 --primary-white-color: #FFFFFF;
+--secondary-bgrc: #2F303A;
+--filter-btn: #F5F4FA;
 }
 
 body {
@@ -10,7 +12,6 @@ body {
     color: var(--primary-text-color);
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    line-height: 1.71;
     letter-spacing: 0.03em;
 }
 
@@ -63,7 +64,7 @@ body {
 
 /* Hero */
 .hero {
-    background-color: #2F303A;
+    background-color: var(--secondary-bgrc);
 
 }
 
@@ -130,7 +131,7 @@ body {
 /* Footer */
 
 .footer {
-    background-color: #2F303A;
+    background-color: var(--secondary-bgrc);
 }
 
 .logo.footer {
@@ -142,6 +143,7 @@ body {
     color: var(--primary-white-color);
     text-decoration: none;
     font-style: normal;
+    line-height: 1.71;
 }
 
 .footer-mail,
@@ -149,6 +151,7 @@ body {
    color: rgba(255, 255, 255, 0.6);
    text-decoration: none;
    font-style: normal;
+   line-height: 1.71;
 }
 
 .footer-map:hover,
@@ -165,7 +168,7 @@ body {
 
 .filter-list .btn-list {
     color: var(--secondary-text-color);
-    background-color: #F5F4FA;
+    background-color: var(--filter-btn);
     border: none;
     cursor: pointer;
     font-family: 'Roboto';
